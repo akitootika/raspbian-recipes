@@ -18,7 +18,7 @@ dhcp_range_end="192.168.2.100"
 dhcp_time="12h"
 dns_server="1.1.1.1"
 eth="eth0"
-wlan="wlan0"
+wlan="eth1"
 
 sudo systemctl start network-online.target &> /dev/null
 

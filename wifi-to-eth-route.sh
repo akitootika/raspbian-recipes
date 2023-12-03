@@ -1,17 +1,4 @@
 #!/bin/bash
-
-# Share Wifi with Eth device
-#
-#
-# This script is created to work with Raspbian Stretch
-# but it can be used with most of the distributions
-# by making few changes.
-#
-# Make sure you have already installed `dnsmasq`
-# Please modify the variables according to your need
-# Don't forget to change the name of network interface
-# Check them with `ifconfig`
-
 ip_address_and_network_mask_in_CDIR_notation="192.168.2.1/24"
 dhcp_range_start="192.168.2.2"
 dhcp_range_end="192.168.2.100"
